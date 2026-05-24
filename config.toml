@@ -1,0 +1,12 @@
+# 配置服务器的基本信息
+[server]
+# 定义服务器监听的端口和主机地址
+addr = "0.0.0.0:3000"
+
+# 配置数据库的连接信息
+[db]
+# 定义连接数据库的URL，包含用户名、密码、主机地址、端口和数据库名
+#url = "mysql://rongzy:3aPsK6iud9@192.168.50.254:3306/angge_rust"
+url = "sqlite://data/angge_rust.db"
+[redis]
+url = "redis://:3aPsK6iud9@192.168.50.254:6379"
