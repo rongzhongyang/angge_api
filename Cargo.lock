@@ -48,6 +48,32 @@ dependencies = [
 ]
 
 [[package]]
+name = "angge_api"
+version = "0.1.0"
+dependencies = [
+ "axum",
+ "axum-valid",
+ "chrono",
+ "config",
+ "garde",
+ "jsonwebtoken",
+ "log",
+ "log4rs",
+ "moka",
+ "rbatis",
+ "rbdc-mysql",
+ "rbdc-pool-fast",
+ "rbdc-sqlite",
+ "rbs",
+ "redis",
+ "regex",
+ "serde",
+ "thiserror 2.0.16",
+ "tokio",
+ "validator",
+]
+
+[[package]]
 name = "anyhow"
 version = "1.0.99"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -129,32 +155,6 @@ dependencies = [
  "tower-layer",
  "tower-service",
  "tracing",
-]
-
-[[package]]
-name = "axum-admin"
-version = "0.1.0"
-dependencies = [
- "axum",
- "axum-valid",
- "chrono",
- "config",
- "garde",
- "jsonwebtoken",
- "log",
- "log4rs",
- "moka",
- "rbatis",
- "rbdc-mysql",
- "rbdc-pool-fast",
- "rbdc-sqlite",
- "rbs",
- "redis",
- "regex",
- "serde",
- "thiserror 2.0.16",
- "tokio",
- "validator",
 ]
 
 [[package]]
